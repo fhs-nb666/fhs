@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from robot_interfaces/action/Collect.action
+// generated code does not contain a copyright notice
+
+
+module robot_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "goal")
+    struct Collect_Goal {
+      float x;
+
+      float y;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct Collect_Result {
+      boolean success;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct Collect_Feedback {
+      float distance;
+    };
+  };
+};

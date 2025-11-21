@@ -1,0 +1,12 @@
+robot_solver/
+├── package.xml
+├── setup.py
+├── setup.cfg
+├── resource/
+│   └── robot_solver
+├── robot_solver/
+│   └── robot_solver_node.py
+├── launch/
+│   └── robot_solver.launch.py  # 启动文件放在这里
+└── config/
+    └── params.yaml

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypelocation="http://www.ros.org/schema/package_format3.xsd"?>
+<package format="3">
+  <name>robot_tracker</name>
+  <version>0.0.0</version>
+  <description>Robot tracker for target state estimation and collection</description>
+  <maintainer email="fhs@todo.todo">fhs</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>  <!-- 添加 nav_msgs 依赖 -->
+  <depend>tf2_ros</depend>
+  <depend>tf2_msgs</depend>
+  <!-- 暂时注释掉 robot_interfaces 依赖 -->
+  <!-- <depend>robot_interfaces</depend> -->
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

@@ -1,0 +1,1 @@
+/home/fhs/ros2_ws/build/robot_interfaces/rosidl_typesupport_introspection_c/robot_interfaces/action/detail/collect__rosidl_typesupport_introspection_c.h

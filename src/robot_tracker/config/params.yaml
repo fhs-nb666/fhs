@@ -1,0 +1,21 @@
+robot_tracker:
+  ros__parameters:
+    # 卡尔曼滤波参数
+    filter_type: "kalman"
+    # 过程噪声和测量噪声
+    process_noise: 0.01
+    measurement_noise: 0.1
+
+    kalman_q: 0.1    # 过程噪声协方差
+    kalman_r: 0.1    # 观测噪声协方差
+
+    # 静止状态判断参数
+    velocity_threshold: 0.05     # 速度阈值 (m/s)
+    stationary_time: 5.0         # 静止持续时间 (秒)
+
+    # 发布参数
+    publish_frequency: 50.0      # 发布频率 (Hz)
+    target_frame: "world"        # 目标坐标系
+
+    # 动作客户端参数
+    action_timeout: 10.0         # 动作超时时间 (秒)

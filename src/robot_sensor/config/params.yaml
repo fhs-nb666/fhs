@@ -1,0 +1,16 @@
+robot_sensor:
+  ros__parameters:
+  #传感器参数
+    data_file_path: "sensor_data_straight.txt" # 传感器数据文件路径
+    frequency: 100.0
+    observation_frame: "base_link"
+
+  # TF广播参数
+    world_frame: "world"
+    base_frame: "base_link"
+    target_frame: "target_link"
+
+  # 数据发布参数
+    topic_name: "robot_sensor/observed"
+    qos_depth: 10
+    qos_reliability: "reliable"

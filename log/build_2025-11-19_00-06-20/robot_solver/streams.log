@@ -1,0 +1,21 @@
+[0.738s] Invoking command in '/home/fhs/ros2_ws/src/robot_solver': CMAKE_PREFIX_PATH=/home/fhs/ros2_ws/install/robot_interfaces:/home/fhs/ros2_ws/install/robot_solver LD_LIBRARY_PATH=/home/fhs/ros2_ws/install/robot_interfaces/lib:/home/fhs/ros2_ws/install/robot_solver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/fhs/ros2_ws/build/robot_solver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fhs/ros2_ws/install/robot_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_solver build --build-base /home/fhs/ros2_ws/build/robot_solver/build install --record /home/fhs/ros2_ws/build/robot_solver/install.log --single-version-externally-managed install_data
+[0.940s] running egg_info
+[0.940s] writing ../../build/robot_solver/robot_solver.egg-info/PKG-INFO
+[0.941s] writing dependency_links to ../../build/robot_solver/robot_solver.egg-info/dependency_links.txt
+[0.941s] writing entry points to ../../build/robot_solver/robot_solver.egg-info/entry_points.txt
+[0.942s] writing requirements to ../../build/robot_solver/robot_solver.egg-info/requires.txt
+[0.942s] writing top-level names to ../../build/robot_solver/robot_solver.egg-info/top_level.txt
+[0.943s] reading manifest file '../../build/robot_solver/robot_solver.egg-info/SOURCES.txt'
+[0.943s] writing manifest file '../../build/robot_solver/robot_solver.egg-info/SOURCES.txt'
+[0.943s] running build
+[0.944s] running build_py
+[0.944s] running install
+[0.944s] running install_lib
+[0.945s] running install_data
+[0.945s] running install_egg_info
+[0.947s] removing '/home/fhs/ros2_ws/install/robot_solver/lib/python3.10/site-packages/robot_solver-0.0.0-py3.10.egg-info' (and everything under it)
+[0.948s] Copying ../../build/robot_solver/robot_solver.egg-info to /home/fhs/ros2_ws/install/robot_solver/lib/python3.10/site-packages/robot_solver-0.0.0-py3.10.egg-info
+[0.948s] running install_scripts
+[0.968s] Installing robot_solver_node script to /home/fhs/ros2_ws/install/robot_solver/lib/robot_solver
+[0.968s] writing list of installed files to '/home/fhs/ros2_ws/build/robot_solver/install.log'
+[0.994s] Invoked command in '/home/fhs/ros2_ws/src/robot_solver' returned '0': CMAKE_PREFIX_PATH=/home/fhs/ros2_ws/install/robot_interfaces:/home/fhs/ros2_ws/install/robot_solver LD_LIBRARY_PATH=/home/fhs/ros2_ws/install/robot_interfaces/lib:/home/fhs/ros2_ws/install/robot_solver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/fhs/ros2_ws/build/robot_solver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fhs/ros2_ws/install/robot_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_solver build --build-base /home/fhs/ros2_ws/build/robot_solver/build install --record /home/fhs/ros2_ws/build/robot_solver/install.log --single-version-externally-managed install_data

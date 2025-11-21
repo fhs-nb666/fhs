@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_controller_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/robot_controller_node.dir/src/robot_controller_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable robot_controller_node[0m
+[100%] Built target robot_controller_node
+-- Install configuration: ""
+-- Installing: /home/fhs/ros2_ws/install/robot_controller/lib/robot_controller/robot_controller_node
+-- Set runtime path of "/home/fhs/ros2_ws/install/robot_controller/lib/robot_controller/robot_controller_node" to ""
+-- Installing: /home/fhs/ros2_ws/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller
+-- Installing: /home/fhs/ros2_ws/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller
+-- Installing: /home/fhs/ros2_ws/install/robot_controller/share/robot_controller/environment/ament_prefix_path.sh
+-- Installing: /home/fhs/ros2_ws/install/robot_controller/share/robot_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/fhs/ros2_ws/install/robot_controller/share/robot_controller/environment/path.sh
+-- Installing: /home/fhs/ros2_ws/install/robot_controller/share/robot_controller/environment/path.dsv
+-- Installing: /home/fhs/ros2_ws/install/robot_controller/share/robot_controller/local_setup.bash
+-- Installing: /home/fhs/ros2_ws/install/robot_controller/share/robot_controller/local_setup.sh
+-- Installing: /home/fhs/ros2_ws/install/robot_controller/share/robot_controller/local_setup.zsh
+-- Installing: /home/fhs/ros2_ws/install/robot_controller/share/robot_controller/local_setup.dsv
+-- Installing: /home/fhs/ros2_ws/install/robot_controller/share/robot_controller/package.dsv
+-- Installing: /home/fhs/ros2_ws/install/robot_controller/share/ament_index/resource_index/packages/robot_controller
+-- Installing: /home/fhs/ros2_ws/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig-version.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_controller/share/robot_controller/package.xml

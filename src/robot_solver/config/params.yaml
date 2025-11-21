@@ -1,0 +1,4 @@
+robot_solver:
+  ros__parameters:
+    bullet_speed: 20.0
+    hit_mode: "Positive"

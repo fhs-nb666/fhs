@@ -1,0 +1,1 @@
+/home/fhs/ros2_ws/build/robot_interfaces/rosidl_generator_c/robot_interfaces/msg/detail/control__type_support.h

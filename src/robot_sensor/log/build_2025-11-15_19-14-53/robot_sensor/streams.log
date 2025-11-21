@@ -1,0 +1,35 @@
+[0.565s] Invoking command in '/home/fhs/ros2_ws/src/robot_sensor/build/robot_sensor': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/fhs/ros2_ws/src/robot_sensor/build/robot_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fhs/ros2_ws/src/robot_sensor/build/robot_sensor/build --no-deps symlink_data
+[0.833s] running develop
+[0.979s] running egg_info
+[0.979s] creating robot_sensor.egg-info
+[0.979s] writing robot_sensor.egg-info/PKG-INFO
+[0.979s] writing dependency_links to robot_sensor.egg-info/dependency_links.txt
+[0.979s] writing entry points to robot_sensor.egg-info/entry_points.txt
+[0.980s] writing requirements to robot_sensor.egg-info/requires.txt
+[0.980s] writing top-level names to robot_sensor.egg-info/top_level.txt
+[0.980s] writing manifest file 'robot_sensor.egg-info/SOURCES.txt'
+[0.982s] reading manifest file 'robot_sensor.egg-info/SOURCES.txt'
+[0.982s] writing manifest file 'robot_sensor.egg-info/SOURCES.txt'
+[0.984s] running build_ext
+[0.984s] Creating /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/lib/python3.10/site-packages/robot-sensor.egg-link (link to .)
+[0.985s] Installing generate_sensor_data script to /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/lib/robot_sensor
+[0.985s] Installing robot_sensor_node script to /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/lib/robot_sensor
+[0.985s] 
+[0.985s] Installed /home/fhs/ros2_ws/src/robot_sensor/build/robot_sensor
+[0.985s] running symlink_data
+[0.985s] creating /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share
+[0.985s] creating /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/ament_index
+[0.986s] creating /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/ament_index/resource_index
+[0.986s] creating /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/ament_index/resource_index/packages
+[0.986s] symbolically linking /home/fhs/ros2_ws/src/robot_sensor/build/robot_sensor/resource/robot_sensor -> /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/ament_index/resource_index/packages
+[0.986s] creating /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/robot_sensor
+[0.986s] symbolically linking /home/fhs/ros2_ws/src/robot_sensor/build/robot_sensor/package.xml -> /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/robot_sensor
+[0.986s] creating /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/robot_sensor/config
+[0.986s] symbolically linking /home/fhs/ros2_ws/src/robot_sensor/build/robot_sensor/config/params.yaml -> /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/robot_sensor/config
+[0.986s] creating /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/robot_sensor/data
+[0.986s] symbolically linking /home/fhs/ros2_ws/src/robot_sensor/build/robot_sensor/data/sensor_data_random.txt -> /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/robot_sensor/data
+[0.986s] symbolically linking /home/fhs/ros2_ws/src/robot_sensor/build/robot_sensor/data/sensor_data_circle.txt -> /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/robot_sensor/data
+[0.986s] symbolically linking /home/fhs/ros2_ws/src/robot_sensor/build/robot_sensor/data/sensor_data_straight.txt -> /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/robot_sensor/data
+[0.986s] creating /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/robot_sensor/launch
+[0.986s] symbolically linking /home/fhs/ros2_ws/src/robot_sensor/build/robot_sensor/launch/robot_sensor.launch.py -> /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/robot_sensor/launch
+[1.015s] Invoked command in '/home/fhs/ros2_ws/src/robot_sensor/build/robot_sensor' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/fhs/ros2_ws/src/robot_sensor/build/robot_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fhs/ros2_ws/src/robot_sensor/build/robot_sensor/build --no-deps symlink_data

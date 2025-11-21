@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_solver/srv/SetMode.srv
+// generated code does not contain a copyright notice
+
+
+module robot_solver {
+  module srv {
+    struct SetMode_Request {
+      string mode;
+    };
+    struct SetMode_Response {
+      @verbatim (language="comment", text=
+        "是否成功")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "相应的消息")
+      string message;
+    };
+  };
+};

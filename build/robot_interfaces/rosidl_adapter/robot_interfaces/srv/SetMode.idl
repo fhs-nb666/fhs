@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_interfaces/srv/SetMode.srv
+// generated code does not contain a copyright notice
+
+
+module robot_interfaces {
+  module srv {
+    struct SetMode_Request {
+      string mode;
+    };
+    struct SetMode_Response {
+      boolean success;
+    };
+  };
+};

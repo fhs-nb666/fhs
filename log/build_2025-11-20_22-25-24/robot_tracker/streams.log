@@ -1,0 +1,21 @@
+[0.619s] Invoking command in '/home/fhs/ros2_ws/src/robot_tracker': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/fhs/ros2_ws/build/robot_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fhs/ros2_ws/install/robot_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_tracker build --build-base /home/fhs/ros2_ws/build/robot_tracker/build install --record /home/fhs/ros2_ws/build/robot_tracker/install.log --single-version-externally-managed install_data
+[0.866s] running egg_info
+[0.867s] writing ../../build/robot_tracker/robot_tracker.egg-info/PKG-INFO
+[0.868s] writing dependency_links to ../../build/robot_tracker/robot_tracker.egg-info/dependency_links.txt
+[0.868s] writing entry points to ../../build/robot_tracker/robot_tracker.egg-info/entry_points.txt
+[0.868s] writing requirements to ../../build/robot_tracker/robot_tracker.egg-info/requires.txt
+[0.868s] writing top-level names to ../../build/robot_tracker/robot_tracker.egg-info/top_level.txt
+[0.870s] reading manifest file '../../build/robot_tracker/robot_tracker.egg-info/SOURCES.txt'
+[0.870s] writing manifest file '../../build/robot_tracker/robot_tracker.egg-info/SOURCES.txt'
+[0.870s] running build
+[0.870s] running build_py
+[0.871s] running install
+[0.871s] running install_lib
+[0.872s] running install_data
+[0.872s] running install_egg_info
+[0.874s] removing '/home/fhs/ros2_ws/install/robot_tracker/lib/python3.10/site-packages/robot_tracker-0.0.0-py3.10.egg-info' (and everything under it)
+[0.875s] Copying ../../build/robot_tracker/robot_tracker.egg-info to /home/fhs/ros2_ws/install/robot_tracker/lib/python3.10/site-packages/robot_tracker-0.0.0-py3.10.egg-info
+[0.875s] running install_scripts
+[0.899s] Installing robot_tracker_node script to /home/fhs/ros2_ws/install/robot_tracker/lib/robot_tracker
+[0.900s] writing list of installed files to '/home/fhs/ros2_ws/build/robot_tracker/install.log'
+[0.924s] Invoked command in '/home/fhs/ros2_ws/src/robot_tracker' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/fhs/ros2_ws/build/robot_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fhs/ros2_ws/install/robot_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_tracker build --build-base /home/fhs/ros2_ws/build/robot_tracker/build install --record /home/fhs/ros2_ws/build/robot_tracker/install.log --single-version-externally-managed install_data

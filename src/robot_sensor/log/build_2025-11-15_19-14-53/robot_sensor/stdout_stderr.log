@@ -1,0 +1,33 @@
+running develop
+running egg_info
+creating robot_sensor.egg-info
+writing robot_sensor.egg-info/PKG-INFO
+writing dependency_links to robot_sensor.egg-info/dependency_links.txt
+writing entry points to robot_sensor.egg-info/entry_points.txt
+writing requirements to robot_sensor.egg-info/requires.txt
+writing top-level names to robot_sensor.egg-info/top_level.txt
+writing manifest file 'robot_sensor.egg-info/SOURCES.txt'
+reading manifest file 'robot_sensor.egg-info/SOURCES.txt'
+writing manifest file 'robot_sensor.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/lib/python3.10/site-packages/robot-sensor.egg-link (link to .)
+Installing generate_sensor_data script to /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/lib/robot_sensor
+Installing robot_sensor_node script to /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/lib/robot_sensor
+
+Installed /home/fhs/ros2_ws/src/robot_sensor/build/robot_sensor
+running symlink_data
+creating /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share
+creating /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/ament_index
+creating /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/ament_index/resource_index
+creating /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/ament_index/resource_index/packages
+symbolically linking /home/fhs/ros2_ws/src/robot_sensor/build/robot_sensor/resource/robot_sensor -> /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/ament_index/resource_index/packages
+creating /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/robot_sensor
+symbolically linking /home/fhs/ros2_ws/src/robot_sensor/build/robot_sensor/package.xml -> /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/robot_sensor
+creating /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/robot_sensor/config
+symbolically linking /home/fhs/ros2_ws/src/robot_sensor/build/robot_sensor/config/params.yaml -> /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/robot_sensor/config
+creating /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/robot_sensor/data
+symbolically linking /home/fhs/ros2_ws/src/robot_sensor/build/robot_sensor/data/sensor_data_random.txt -> /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/robot_sensor/data
+symbolically linking /home/fhs/ros2_ws/src/robot_sensor/build/robot_sensor/data/sensor_data_circle.txt -> /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/robot_sensor/data
+symbolically linking /home/fhs/ros2_ws/src/robot_sensor/build/robot_sensor/data/sensor_data_straight.txt -> /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/robot_sensor/data
+creating /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/robot_sensor/launch
+symbolically linking /home/fhs/ros2_ws/src/robot_sensor/build/robot_sensor/launch/robot_sensor.launch.py -> /home/fhs/ros2_ws/src/robot_sensor/install/robot_sensor/share/robot_sensor/launch

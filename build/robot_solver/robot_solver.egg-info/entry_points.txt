@@ -1,0 +1,3 @@
+[console_scripts]
+robot_solver_node = robot_solver.robot_solver_node:main
+

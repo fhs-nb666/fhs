@@ -1,0 +1,24 @@
+file(REMOVE_RECURSE
+  "../rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c"
+  "../rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "../rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c"
+  "../rosidl_generator_py/robot_interfaces/action/__init__.py"
+  "../rosidl_generator_py/robot_interfaces/action/_collect.py"
+  "../rosidl_generator_py/robot_interfaces/action/_collect_s.c"
+  "../rosidl_generator_py/robot_interfaces/msg/__init__.py"
+  "../rosidl_generator_py/robot_interfaces/msg/_control.py"
+  "../rosidl_generator_py/robot_interfaces/msg/_control_s.c"
+  "../rosidl_generator_py/robot_interfaces/msg/_robot_state.py"
+  "../rosidl_generator_py/robot_interfaces/msg/_robot_state_s.c"
+  "../rosidl_generator_py/robot_interfaces/msg/_target.py"
+  "../rosidl_generator_py/robot_interfaces/msg/_target_s.c"
+  "../rosidl_generator_py/robot_interfaces/srv/__init__.py"
+  "../rosidl_generator_py/robot_interfaces/srv/_set_mode.py"
+  "../rosidl_generator_py/robot_interfaces/srv/_set_mode_s.c"
+  "CMakeFiles/robot_interfaces__py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/robot_interfaces__py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

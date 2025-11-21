@@ -1,0 +1,17 @@
+/home/fhs/ros2_ws/install/robot_solver/lib/robot_solver/robot_solver_node
+/home/fhs/ros2_ws/install/robot_solver/share/ament_index/resource_index/package_run_dependencies/robot_solver
+/home/fhs/ros2_ws/install/robot_solver/share/ament_index/resource_index/parent_prefix_path/robot_solver
+/home/fhs/ros2_ws/install/robot_solver/share/robot_solver/environment/ament_prefix_path.sh
+/home/fhs/ros2_ws/install/robot_solver/share/robot_solver/environment/ament_prefix_path.dsv
+/home/fhs/ros2_ws/install/robot_solver/share/robot_solver/environment/path.sh
+/home/fhs/ros2_ws/install/robot_solver/share/robot_solver/environment/path.dsv
+/home/fhs/ros2_ws/install/robot_solver/share/robot_solver/local_setup.bash
+/home/fhs/ros2_ws/install/robot_solver/share/robot_solver/local_setup.sh
+/home/fhs/ros2_ws/install/robot_solver/share/robot_solver/local_setup.zsh
+/home/fhs/ros2_ws/install/robot_solver/share/robot_solver/local_setup.dsv
+/home/fhs/ros2_ws/install/robot_solver/share/robot_solver/package.dsv
+/home/fhs/ros2_ws/install/robot_solver/share/ament_index/resource_index/packages/robot_solver
+/home/fhs/ros2_ws/install/robot_solver/share/robot_solver/cmake/ament_cmake_export_dependencies-extras.cmake
+/home/fhs/ros2_ws/install/robot_solver/share/robot_solver/cmake/robot_solverConfig.cmake
+/home/fhs/ros2_ws/install/robot_solver/share/robot_solver/cmake/robot_solverConfig-version.cmake
+/home/fhs/ros2_ws/install/robot_solver/share/robot_solver/package.xml

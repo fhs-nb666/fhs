@@ -1,0 +1,330 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /home/fhs/anaconda3/bin/python3 (found version "3.12.2") found components: Interpreter 
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /home/fhs/anaconda3/bin/python3 (found suitable version "3.12.2", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /home/fhs/anaconda3/lib/libpython3.12.so (found suitable version "3.12.2", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /home/fhs/anaconda3/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /home/fhs/anaconda3/include/python3.12
+-- Using PYTHON_LIBRARIES: /home/fhs/anaconda3/lib/libpython3.12.so
+-- Found PythonExtra: .so  
+-- Using numpy include directory: /home/fhs/anaconda3/lib/python3.12/site-packages/numpy/core/include
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fhs/ros2_ws/build/robot_interfaces
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  3%] Built target ament_cmake_python_copy_robot_interfaces
+running egg_info
+creating robot_interfaces.egg-info
+writing robot_interfaces.egg-info/PKG-INFO
+writing dependency_links to robot_interfaces.egg-info/dependency_links.txt
+writing top-level names to robot_interfaces.egg-info/top_level.txt
+writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[  3%] Built target robot_interfaces__cpp
+[  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[  7%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/msg/detail/target__functions.c.o[0m
+[  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 10%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/msg/detail/control__functions.c.o[0m
+[ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 14%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/set_mode__functions.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/msg/detail/robot_state__functions.c.o[0m
+reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[ 16%] Built target ament_cmake_python_build_robot_interfaces_egg
+[ 18%] [32m[1mLinking C shared library librobot_interfaces__rosidl_generator_c.so[0m
+[ 18%] Built target robot_interfaces__rosidl_generator_c
+[ 20%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/msg/target__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/msg/robot_state__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/msg/control__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/srv/set_mode__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/target__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/control__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_state__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/set_mode__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/msg/detail/dds_fastrtps/target__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/msg/detail/dds_fastrtps/robot_state__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/msg/detail/dds_fastrtps/control__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.cpp.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/srv/detail/set_mode__type_support.c.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/msg/detail/target__type_support.c.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/msg/detail/control__type_support.c.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/msg/detail/robot_state__type_support.c.o[0m
+[ 54%] [32m[1mLinking C shared library librobot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/msg/target__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/msg/control__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/srv/set_mode__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/msg/robot_state__type_support.cpp.o[0m
+[ 61%] Built target robot_interfaces__rosidl_typesupport_introspection_c
+[ 63%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_c.so[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/msg/detail/control__type_support_c.cpp.o[0m
+[ 65%] Built target robot_interfaces__rosidl_typesupport_c
+[ 67%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/srv/detail/set_mode__type_support_c.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/msg/detail/robot_state__type_support_c.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/msg/detail/target__type_support_c.cpp.o[0m
+[ 72%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_cpp.so[0m
+[ 72%] Built target robot_interfaces__rosidl_typesupport_cpp
+[ 74%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 76%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 76%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp
+[ 78%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 78%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 78%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c
+[ 78%] Built target robot_interfaces
+[ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 80%] Built target robot_interfaces__py
+[ 81%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/msg/_control_s.c.o[0m
+[ 83%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/msg/_target_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/msg/_robot_state_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_set_mode_s.c.o[0m
+[ 89%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/librobot_interfaces__rosidl_generator_py.so[0m
+[ 89%] Built target robot_interfaces__rosidl_generator_py
+[ 90%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-312-x86_64-linux-gnu.so[0m
+[ 98%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-312-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-312-x86_64-linux-gnu.so[0m
+[100%] Built target robot_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[100%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/control.h
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/target__type_support.h
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/control__functions.h
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/control__functions.c
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/target__functions.h
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_state__type_support.h
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_state__functions.h
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_state__functions.c
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/target__functions.c
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_state__struct.h
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/control__struct.h
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/target__struct.h
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/control__type_support.h
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/target.h
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/robot_state.h
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/set_mode__functions.h
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/set_mode__functions.c
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/set_mode__type_support.h
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/set_mode__struct.h
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/set_mode.h
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so
+-- Set runtime path of "/home/fhs/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+-- Up-to-date: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+-- Up-to-date: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_state__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/control__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+-- Up-to-date: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/set_mode__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/fhs/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+-- Up-to-date: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_state__rosidl_typesupport_introspection_c.h
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/control__rosidl_typesupport_introspection_c.h
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/target__type_support.c
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_state__type_support.c
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/control__type_support.c
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/target__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+-- Up-to-date: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/set_mode__type_support.c
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/set_mode__rosidl_typesupport_introspection_c.h
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/fhs/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so
+-- Set runtime path of "/home/fhs/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+-- Up-to-date: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+-- Up-to-date: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_state__type_support.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_state__builder.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/target__type_support.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/target__builder.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_state__struct.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/control__traits.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/control__type_support.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/control__struct.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/target__traits.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/target__struct.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_state__traits.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/control__builder.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/control.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/robot_state.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/target.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+-- Up-to-date: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/set_mode__type_support.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/set_mode__traits.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/set_mode__struct.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/set_mode__builder.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/set_mode.hpp
+-- Up-to-date: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+-- Up-to-date: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+-- Up-to-date: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/control__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/dds_fastrtps
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+-- Up-to-date: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/dds_fastrtps
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/fhs/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+-- Up-to-date: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+-- Up-to-date: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_state__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/target__type_support.cpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/control__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/control__type_support.cpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_state__type_support.cpp
+-- Up-to-date: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+-- Up-to-date: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/set_mode__type_support.cpp
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/fhs/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/fhs/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces-0.0.0-py3.12.egg-info
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-312-x86_64-linux-gnu.so
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-312-x86_64-linux-gnu.so
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/msg
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/msg/_control.py
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/msg/_robot_state_s.c
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/msg/_target_s.c
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/msg/_robot_state.py
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/msg/_target.py
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/msg/__init__.py
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/msg/_control_s.c
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/librobot_interfaces__rosidl_generator_py.so
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-312-x86_64-linux-gnu.so
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/__init__.py
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv/_set_mode_s.c
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv/_set_mode.py
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv/__init__.py
+Listing '/home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces'...
+Compiling '/home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/__init__.py'...
+Listing '/home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/msg'...
+Compiling '/home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/msg/__init__.py'...
+Compiling '/home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/msg/_control.py'...
+Compiling '/home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/msg/_robot_state.py'...
+Compiling '/home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/msg/_target.py'...
+Listing '/home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv'...
+Compiling '/home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv/__init__.py'...
+Compiling '/home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv/_set_mode.py'...
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-312-x86_64-linux-gnu.so
+-- Set runtime path of "/home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-312-x86_64-linux-gnu.so" to ""
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-312-x86_64-linux-gnu.so
+-- Set runtime path of "/home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-312-x86_64-linux-gnu.so" to ""
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-312-x86_64-linux-gnu.so
+-- Set runtime path of "/home/fhs/ros2_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-312-x86_64-linux-gnu.so" to ""
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so
+-- Set runtime path of "/home/fhs/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/msg/Target.idl
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/msg/Control.idl
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/msg/RobotState.idl
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/srv/SetMode.idl
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/msg/Target.msg
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/msg/Control.msg
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/msg/RobotState.msg
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/srv/SetMode.srv
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/srv/SetMode_Request.msg
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/srv/SetMode_Response.msg
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/path.sh
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/path.dsv
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/local_setup.bash
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/local_setup.sh
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/local_setup.zsh
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/local_setup.dsv
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/package.dsv
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake
+-- Installing: /home/fhs/ros2_ws/install/robot_interfaces/share/robot_interfaces/package.xml

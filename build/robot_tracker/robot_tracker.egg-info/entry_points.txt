@@ -1,0 +1,3 @@
+[console_scripts]
+robot_tracker_node = robot_tracker.robot_tracker_node:main
+

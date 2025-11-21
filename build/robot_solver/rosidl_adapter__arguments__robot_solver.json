@@ -1,0 +1,7 @@
+{
+  "package_name": "robot_solver",
+  "non_idl_tuples": [
+    "/home/fhs/ros2_ws/src/robot_solver:msg/Control.msg",
+    "/home/fhs/ros2_ws/src/robot_solver:srv/SetMode.srv"
+  ]
+}

@@ -1,0 +1,16 @@
+ros2_ws/src/robot_sensor/
+├── package.xml
+├── setup.py
+├── setup.cfg
+├── config/                              # 配置文件目录
+│   └── params.yaml
+├── data/                                # 数据文件目录
+│   ├── sensor_data_straight.txt
+│   ├── sensor_data_circle.txt
+│   └── sensor_data_random.txt
+├── launch/                              # Launch文件目录
+│   └── robot_sensor.launch.py
+└── robot_sensor/                        # Python包目录
+    ├── __init__.py
+    ├── robot_sensor_node.py             # 主节点文件
+    └── generate_sensor_data.py          # 数据生成脚本

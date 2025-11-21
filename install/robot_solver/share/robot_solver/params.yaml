@@ -1,0 +1,7 @@
+robot_solver:
+  ros__parameters:
+    bullet_speed: 20.0
+    target_radius: 0.25
+    max_passive_angle: 10.0
+    prediction_enabled: true
+    velocity_smoothing: 0.8

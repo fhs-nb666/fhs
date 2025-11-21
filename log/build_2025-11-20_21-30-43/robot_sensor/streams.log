@@ -1,0 +1,25 @@
+[0.521s] Invoking command in '/home/fhs/ros2_ws/src/robot_sensor': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/fhs/ros2_ws/build/robot_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fhs/ros2_ws/install/robot_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_sensor build --build-base /home/fhs/ros2_ws/build/robot_sensor/build install --record /home/fhs/ros2_ws/build/robot_sensor/install.log --single-version-externally-managed install_data
+[0.727s] running egg_info
+[0.728s] writing ../../build/robot_sensor/robot_sensor.egg-info/PKG-INFO
+[0.728s] writing dependency_links to ../../build/robot_sensor/robot_sensor.egg-info/dependency_links.txt
+[0.728s] writing entry points to ../../build/robot_sensor/robot_sensor.egg-info/entry_points.txt
+[0.728s] writing requirements to ../../build/robot_sensor/robot_sensor.egg-info/requires.txt
+[0.728s] writing top-level names to ../../build/robot_sensor/robot_sensor.egg-info/top_level.txt
+[0.730s] reading manifest file '../../build/robot_sensor/robot_sensor.egg-info/SOURCES.txt'
+[0.730s] writing manifest file '../../build/robot_sensor/robot_sensor.egg-info/SOURCES.txt'
+[0.731s] running build
+[0.731s] running build_py
+[0.731s] copying robot_sensor/robot_sensor_node.py -> /home/fhs/ros2_ws/build/robot_sensor/build/lib/robot_sensor
+[0.731s] running install
+[0.731s] running install_lib
+[0.732s] copying /home/fhs/ros2_ws/build/robot_sensor/build/lib/robot_sensor/robot_sensor_node.py -> /home/fhs/ros2_ws/install/robot_sensor/lib/python3.10/site-packages/robot_sensor
+[0.732s] byte-compiling /home/fhs/ros2_ws/install/robot_sensor/lib/python3.10/site-packages/robot_sensor/robot_sensor_node.py to robot_sensor_node.cpython-310.pyc
+[0.734s] running install_data
+[0.734s] running install_egg_info
+[0.736s] removing '/home/fhs/ros2_ws/install/robot_sensor/lib/python3.10/site-packages/robot_sensor-0.0.0-py3.10.egg-info' (and everything under it)
+[0.736s] Copying ../../build/robot_sensor/robot_sensor.egg-info to /home/fhs/ros2_ws/install/robot_sensor/lib/python3.10/site-packages/robot_sensor-0.0.0-py3.10.egg-info
+[0.737s] running install_scripts
+[0.756s] Installing generate_sensor_data script to /home/fhs/ros2_ws/install/robot_sensor/lib/robot_sensor
+[0.756s] Installing robot_sensor_node script to /home/fhs/ros2_ws/install/robot_sensor/lib/robot_sensor
+[0.757s] writing list of installed files to '/home/fhs/ros2_ws/build/robot_sensor/install.log'
+[0.775s] Invoked command in '/home/fhs/ros2_ws/src/robot_sensor' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/fhs/ros2_ws/build/robot_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fhs/ros2_ws/install/robot_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_sensor build --build-base /home/fhs/ros2_ws/build/robot_sensor/build install --record /home/fhs/ros2_ws/build/robot_sensor/install.log --single-version-externally-managed install_data

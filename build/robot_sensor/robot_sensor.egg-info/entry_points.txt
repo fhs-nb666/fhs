@@ -1,0 +1,4 @@
+[console_scripts]
+generate_sensor_data = robot_sensor.generate_sensor_data:main
+robot_sensor_node = robot_sensor.robot_sensor_node:main
+
